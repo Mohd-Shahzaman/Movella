@@ -17,6 +17,7 @@ export default {
         sans: ["DM Sans", "sans-serif"],
         display: ["Manrope", "sans-serif"],
         mono: ["DM Mono", "monospace"],
+        serif: ["DM Serif Display", "serif"],
       },
       colors: {
         movella: {

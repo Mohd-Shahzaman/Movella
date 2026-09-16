@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Bodoni+Moda:opsz,wght@6..96,400;6..96,500;6..96,600&family=DM+Mono:wght@400;500&family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@500;600;700;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Mono:wght@400;500&family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@500;600;700;800&display=swap");
 @import "tailwindcss";
 @config "../tailwind.config.ts";
 
@@ -182,7 +182,7 @@
     bottom: -4vw;
     color: rgba(36, 68, 109, 0.055);
     font:
-      500 18vw/0.8 "Bodoni Moda",
+      400 18vw/0.8 "DM Serif Display",
       Georgia,
       serif;
     letter-spacing: -0.09em;
@@ -250,9 +250,9 @@
   h1,
   h2,
   h3 {
-    font-family: "Bodoni Moda", Georgia, serif;
-    letter-spacing: -0.045em;
-    font-weight: 500;
+    font-family: "DM Serif Display", Georgia, serif;
+    letter-spacing: -0.03em;
+    font-weight: 400;
   }
 
   h1 {
@@ -1128,7 +1128,7 @@
     bottom: -3vw;
     color: rgba(255, 250, 244, 0.06);
     font:
-      500 15vw/0.8 "Bodoni Moda",
+      400 15vw/0.8 "DM Serif Display",
       Georgia,
       serif;
     letter-spacing: -0.08em;
@@ -1601,7 +1601,7 @@
   .audience-item b {
     color: #20232b;
     font:
-      500 20px/1.05 "Bodoni Moda",
+      400 20px/1.05 "DM Serif Display",
       Georgia,
       serif;
   }
@@ -2094,4 +2094,16 @@
     animation-iteration-count: 1 !important;
     transition-duration: 0.01ms !important;
   }
+}
+
+.dm-serif-display-regular {
+  font-family: "DM Serif Display", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.dm-serif-display-regular-italic {
+  font-family: "DM Serif Display", serif;
+  font-weight: 400;
+  font-style: italic;
 }
